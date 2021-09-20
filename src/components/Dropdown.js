@@ -126,9 +126,9 @@ const Dropdown = ({isOpen,toggle}) => {
       useEffect(()=>{
           window.addEventListener('scroll',changeNav)
         },[]);
-        const toggleHome=()=>{
-            scroll.scrollToTop();
-          }
+        // const toggleHome=()=>{
+        //     scroll.scrollToTop();
+        //   }
     return (
       <DropdownContainer isOpen={isOpen} onClick={toggle} scrollNav={scrollNav} >
        <Icon onClick={toggle}>

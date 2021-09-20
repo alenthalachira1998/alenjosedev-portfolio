@@ -244,25 +244,25 @@ const Services = () => {
                 </ServicesCard>
 
             </ServicesWrapper>
-            <ServicesPhTwo>Reduce expenses</ServicesPhTwo>
+            <ServicesPhTwo>lorem</ServicesPhTwo>
             <ServicesWrapperTwo>
 
                 <ServicesCardTwo>
                     <ServicesIconTwo src={Icon1} />
-                    <ServicesH2Two>Reduce expenses</ServicesH2Two>
-                    <ServicesPTwo>We help reduce your fees and increase your overall revenue</ServicesPTwo>
+                    <ServicesH2Two>lorem</ServicesH2Two>
+                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
 
                 </ServicesCardTwo>
                 <ServicesCardTwo>
                     <ServicesIconTwo src={Icon2} />
-                    <ServicesH2Two>Reduce expenses</ServicesH2Two>
-                    <ServicesPTwo>We help reduce your fees and increase your overall revenue</ServicesPTwo>
+                    <ServicesH2Two>lorem</ServicesH2Two>
+                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
 
                 </ServicesCardTwo>
                 <ServicesCardTwo>
                     <ServicesIconTwo src={Icon3} />
-                    <ServicesH2Two>Reduce expenses</ServicesH2Two>
-                    <ServicesPTwo>We help reduce your fees and increase your overall revenue</ServicesPTwo>
+                    <ServicesH2Two>lorem</ServicesH2Two>
+                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
 
                 </ServicesCardTwo>
 

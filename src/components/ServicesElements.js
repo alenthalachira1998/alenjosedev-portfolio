@@ -138,20 +138,20 @@ const Services = () => {
          <ServicesWrapper>
              <ServicesCard>
                <ServicesIcon src={Icon1}/>  
-               <ServicesH2>Reduce expenses</ServicesH2>
-               <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
-              
+               <ServicesH2>lorem</ServicesH2>
+               <ServicesP>lorem ipsum dolor sit amet, consectetur adip</ServicesP>
+
                </ServicesCard>
              <ServicesCard>
                <ServicesIcon src={Icon2}/>  
                <ServicesH2>Reduce expenses</ServicesH2>
-               <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+               <ServicesP>lorem ipsum dolor sit amet, consectetur adiprevenue</ServicesP>
             
              </ServicesCard>
              <ServicesCard>
                <ServicesIcon src={Icon3}/>  
                <ServicesH2>Reduce expenses</ServicesH2>
-               <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+               <ServicesP>lorem ipsum dolor sit amet, consectetur adiprevenue</ServicesP>
                </ServicesCard>
          </ServicesWrapper>
      </ServicesContainer>

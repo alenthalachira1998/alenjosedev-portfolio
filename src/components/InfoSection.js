@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Button } from './Button';
+// import { Button } from './Button';
 import {FaGithubSquare,FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 const Section = styled.section`

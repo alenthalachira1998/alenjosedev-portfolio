@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import {FaGithubSquare,FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
+import {FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 
 export const FooterContainer=styled.footer`

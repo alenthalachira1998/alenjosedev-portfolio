@@ -2,12 +2,12 @@ import React,{ useState,useEffect} from 'react'
 import styled from 'styled-components';
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
-import {Link} from  'react-router-dom';
+// import {Link} from  'react-router-dom';
 import {FaTimes} from 'react-icons/fa'
-import { IoRepeat } from 'react-icons/io5';
+// import { IoRepeat } from 'react-icons/io5';
 import { Link as LinkS } from 'react-scroll';
 import { animateScroll as scroll } from "react-scroll";
-import {FaBars} from 'react-icons/fa';
+// import {FaBars} from 'react-icons/fa';
 import {FaGithubSquare,FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
 import { Modal } from "react-bootstrap";
 const DropdownContainer=styled.div`

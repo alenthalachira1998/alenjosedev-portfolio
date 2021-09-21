@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Button } from './Button';
 import {FaGithubSquare,FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
-
-
+import { animateScroll as scroll } from "react-scroll";
 const Section = styled.section`
 width:100%;
 height:100%;
@@ -71,6 +70,7 @@ p
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
     align-items: flex-start;
+    
    
 }
 `;
@@ -138,7 +138,7 @@ const  Main=({heading,paragraphOne,paragraphTwo,buttonLabel,Image,reverse})=> {
 
 
 
-                 <Button to="homes" primary={true}>{buttonLabel}</Button>
+                 <Button  to="works"  smooth={true} duration={1} spy={true} exact='true'  offset={-80}  activeClass="active" primary={true}>{buttonLabel}</Button>
                  </ColumnLeft>
                  <ColumnRight reverse={reverse}>
                 <img src={Image} alt="home"/>

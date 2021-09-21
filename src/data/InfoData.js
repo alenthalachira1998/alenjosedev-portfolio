@@ -3,7 +3,7 @@ import ImageOne from '../images/manu1.jpg';
 
 export const InfoData=
     {
-        heading:"LET'S PROGRAMME THE UNIVERSE",
+        heading:"BEGIN YOUR JOURNEY WITH ME",
         buttonLabel:'VIEW WORKS',
            Image:ImageOne,
         reverse:false,
@@ -24,7 +24,7 @@ export const InfoData=
         Educationfirst:'Education:',
         Education:'BCA Bangalore University.',
         paragraphFive:'Frontend Frameworks and Libraries:',
-        paragraphSix:'React,Next,Bootstrap,Antdesign,SASS,Jquery,TailwindCSS.',
+        paragraphSix:'React,Next,Bootstrap,Antdesign,TailWind.',
         paragraphSeven:'Backend Frameworks , Libraries and databases: ',
         paragraphEight:'Express,MongoDb MySQL.',
         clients:'Projects for Clients:',

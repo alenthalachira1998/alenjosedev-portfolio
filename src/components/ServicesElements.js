@@ -20,7 +20,7 @@ h1{
 }
 @media screen and (max-width:1200px)
 {
-    height: 1600px;
+    height: auto;
   padding-top:0rem;
   padding-bottom:10rem;
   justify-content:start;
@@ -28,7 +28,7 @@ h1{
 }
 @media screen and (max-width:768px)
 {
-  height: 1700px;
+  height: auto;
   justify-content:start;
   padding-top:1rem;
   padding-bottom:0rem;
@@ -36,7 +36,7 @@ h1{
 }
 @media screen and (max-width:556px)
 {
-  height:1700px;
+  height:auto;
     padding-top:0rem;
   padding-bottom:0rem;
   justify-content:start;
@@ -45,7 +45,7 @@ h1{
 }
 @media screen and (max-width:480px)
 {
-    height:1500px;
+    height:auto;
     padding-top:0rem;
   padding-bottom:0rem;
   justify-content:start;
@@ -67,16 +67,17 @@ padding:0 50px;
 @media screen and (max-width:1200px)
 {
     grid-template-columns: 1fr;
-    padding:0 20px;
-    max-height:2000px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:40px;
 
 }
 
 @media screen and (max-width:480px)
 {
     grid-template-columns:1fr;
-    padding:0 20px;
-    max-height:400px;
+    
+   
 }
 `;
 export const ServicesCard=styled.div`
@@ -138,20 +139,20 @@ const Services = () => {
          <ServicesWrapper>
              <ServicesCard>
                <ServicesIcon src={Icon1}/>  
-               <ServicesH2>lorem</ServicesH2>
-               <ServicesP>lorem ipsum dolor sit amet, consectetur adip</ServicesP>
+               <ServicesH2>MERN</ServicesH2>
+               <ServicesP>Develop your apps using Mernstack also using headless CMS </ServicesP>
 
                </ServicesCard>
              <ServicesCard>
                <ServicesIcon src={Icon2}/>  
-               <ServicesH2>Reduce expenses</ServicesH2>
-               <ServicesP>lorem ipsum dolor sit amet, consectetur adiprevenue</ServicesP>
+               <ServicesH2>CMS</ServicesH2>
+               <ServicesP>Wordpress,Webflow etc..</ServicesP>
             
              </ServicesCard>
              <ServicesCard>
                <ServicesIcon src={Icon3}/>  
-               <ServicesH2>Reduce expenses</ServicesH2>
-               <ServicesP>lorem ipsum dolor sit amet, consectetur adiprevenue</ServicesP>
+               <ServicesH2>React other</ServicesH2>
+               <ServicesP> Develop JAM STACK apps for faster loading </ServicesP>
                </ServicesCard>
          </ServicesWrapper>
      </ServicesContainer>

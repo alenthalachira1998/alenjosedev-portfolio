@@ -6,18 +6,24 @@ import {FaGithubSquare,FaInstagram,FaYoutube,FaLinkedin} from  "react-icons/fa";
 
 
 const Section = styled.section`
+@media screen and (max-width:1200px)
+{
+    padding-left:2rem;
+    padding-bottom: 0rem;
+
+   
+  
+}
 @media screen and (max-width:768px)
 {
     padding-left:0.8rem;
     padding-bottom: 0rem;
+
    
   
 }
 
 
-
-width:100%;
-height:100%;
 h1
 {
     
@@ -42,7 +48,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:425px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 
@@ -51,7 +57,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:500px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 
@@ -62,7 +68,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:450px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 }
@@ -70,7 +76,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:525px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 }
@@ -78,7 +84,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:530px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 
@@ -87,7 +93,7 @@ grid-column-gap:5rem;
 {
     grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:558px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 
@@ -95,9 +101,9 @@ grid-column-gap:5rem;
 
     @media screen and (max-width:335px)
 {
-    grid-template-columns: 270px;
+    grid-template-columns: 1fr;
     padding-bottom: 0rem;
-    grid-template-rows:655px;
+    grid-template-rows:auto;
     grid-column-gap:0rem;
     padding:0;
 
@@ -124,7 +130,24 @@ p
     grid-column-gap:0rem;
     @media screen and (max-width:768px)
 {
-    font-size:1rem;
+    font-size:0.8rem;
+    letter-spacing:1.4;
+    line-height:1.8 ;
+
+
+}
+@media screen and (max-width:480px)
+{
+    font-size:0.8rem;
+    letter-spacing:1.4;
+    line-height:1.8 ;
+
+
+
+}
+@media screen and (max-width:360px)
+{
+    font-size:0.8rem;
     letter-spacing:1.4;
     line-height:1.8 ;
 
@@ -141,19 +164,19 @@ line-height:1.9 ;
 @media screen and (max-width:768px)
 {
     order: ${({reverse})=>(reverse ? '2' : '1')};
-    padding-top: 5rem;
+
     padding-bottom:0rem;
-    margin-top: -230px;
+
     
 }
 @media screen and (max-width:480px)
 {
-    margin-top: -140px;
+  
     
 }
 @media screen and (max-width:320px)
 {
-    margin-top: -100px;
+   
   
     
 }
@@ -168,7 +191,26 @@ p
     font-size:1.4rem;
     @media screen and (max-width:768px)
 {
-    font-size:1rem;
+    font-size:0.9rem;
+    letter-spacing:1.4;
+    line-height:1.8;
+
+
+}
+@media screen and (max-width:480px)
+{
+    font-size:0.9rem;
+    letter-spacing:1.4;
+    line-height:1.8;
+    
+
+
+}
+
+
+@media screen and (max-width:320px)
+{
+    font-size:0.7rem;
     letter-spacing:1.4;
     line-height:1.8;
 

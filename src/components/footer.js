@@ -10,6 +10,7 @@ background-color: #101522;
 @media screen and (max-width:480px)
 {
     flex-direction: column;
+   
     
 
 
@@ -56,6 +57,7 @@ text-align: left;
 width:160px;
 box-sizing: border-box;
 color:#fff;
+
 
 @media screen and (max-width:420px)
 {

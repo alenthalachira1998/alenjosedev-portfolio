@@ -1,7 +1,9 @@
 import React from 'react'
 import Icon1 from '../images/Bakery.png';
-import Icon2 from '../images/insta.png';
+import Icon2 from '../images/instaa.png';
 import Icon3 from '../images/mernblog.png';
+import Icon4 from '../images/1.png';
+import Icon5 from '../images/2.png';
 import styled from "styled-components";
 
 
@@ -20,30 +22,33 @@ h1{
 }
 @media screen and (max-width:1200px)
 {
-    height: 2150px;
-  padding-top:0rem;
-  padding-bottom:0rem;    
+
+
+  padding-bottom:0rem; 
+  height:auto;   
 }
 
 @media screen and (max-width:768px)
 {
-    height: 2050px;
-  padding-top:0rem;
-  padding-bottom:0rem;
+ 
+  padding-bottom:5rem;
+  height: auto;
 }
 @media screen and (max-width:556px)
 {
-    height: 2230px;
-  padding-top:0rem;
-  padding-bottom:0rem;
+   
+ 
+  padding-bottom:5rem;
   margin-top:2rem;
+  height:auto;
 }
 @media screen and (max-width:480px)
 {
-    height:1870px;
-    padding-bottom:0rem;
+   
+    padding-bottom:5rem;
     padding-top:0rem;
     margin-top:0rem;
+    height:auto;
 }
 `;
 export const ServicesWrapper = styled.div`
@@ -224,45 +229,45 @@ export const ServicesH2Two = styled.h2`
 
 
 
-const Services = () => {
+const Works = () => {
     return (
         <ServicesContainer id="works">
             <h1>WORKS</h1>
             <ServicesPh>For Clients</ServicesPh>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
+                    <ServicesIcon src={Icon5} />
                     <ServicesH2>Mern learning app web</ServicesH2>
                     <ServicesP>A learning app with payment multi instructor modules</ServicesP>
 
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon2} />
-                    <ServicesH2>Parasyapedia Advertisement agency</ServicesH2>
-                    <ServicesP>A website using headless cms</ServicesP>
+                    <ServicesIcon src={Icon4} />
+                    <ServicesH2>Greenest</ServicesH2>
+                    <ServicesP>Next app for a builder using  using headless cms</ServicesP>
 
                 </ServicesCard>
 
             </ServicesWrapper>
-            <ServicesPhTwo>lorem</ServicesPhTwo>
+            <ServicesPhTwo>Experiments</ServicesPhTwo>
             <ServicesWrapperTwo>
 
                 <ServicesCardTwo>
-                    <ServicesIconTwo src={Icon1} />
-                    <ServicesH2Two>lorem</ServicesH2Two>
-                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
+                    <ServicesIconTwo src={Icon3} />
+                    <ServicesH2Two>MERN Blog</ServicesH2Two>
+                    <ServicesPTwo>Simple MERN BLOG</ServicesPTwo>
 
                 </ServicesCardTwo>
                 <ServicesCardTwo>
                     <ServicesIconTwo src={Icon2} />
-                    <ServicesH2Two>lorem</ServicesH2Two>
-                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
+                    <ServicesH2Two>Instagram Clone </ServicesH2Two>
+                    <ServicesPTwo>React FireBase</ServicesPTwo>
 
                 </ServicesCardTwo>
                 <ServicesCardTwo>
-                    <ServicesIconTwo src={Icon3} />
-                    <ServicesH2Two>lorem</ServicesH2Two>
-                    <ServicesPTwo>Lorem ipsum dolor sit amet, consectetur adip</ServicesPTwo>
+                    <ServicesIconTwo src={Icon1} />
+                    <ServicesH2Two>Bakery Website</ServicesH2Two>
+                    <ServicesPTwo>Beatiful Bakery Website using Bootstrap</ServicesPTwo>
 
                 </ServicesCardTwo>
 
@@ -271,4 +276,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Works;
